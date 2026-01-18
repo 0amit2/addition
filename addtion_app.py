@@ -5,3 +5,6 @@ b=st.number_input("Enter second number:")
 if st.button('Addtion'):
     c=a+b
     st.success(f'{a}+{b}={c}')
+elif st.button('Substraction'):
+    c=a-b
+    st.success(f'{a}-{b}={c}')
